@@ -4,5 +4,5 @@ setup(
     name = 'slepy',
     version = '0.1',
     packages = find_packages(),
-    install_requires=[],
+    install_requires=['pytz>=2024.2'],
 )
