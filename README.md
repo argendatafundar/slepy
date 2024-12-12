@@ -1,0 +1,1 @@
+# SLEPy — Simple Logger Extension for Python
