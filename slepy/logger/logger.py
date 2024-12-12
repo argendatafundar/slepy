@@ -161,6 +161,7 @@ def debug_print(x, *args, **kwargs):
     
     if log is None:
         warnings.warn("'log' was found but was None.")
+        print(x, *args, **kwargs)
         return
     
     log.debug(x, *args, **kwargs)
